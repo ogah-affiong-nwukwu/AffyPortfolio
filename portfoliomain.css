@@ -8,7 +8,7 @@
     line-height: 1.2rem;
 }
 
-/* Desktop View */
+
 .main-section{
     width: 100%;
     height: auto;
@@ -22,7 +22,7 @@
     justify-content: start;
     align-items: start;
     background-color: #050214;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .header-section{
@@ -132,8 +132,8 @@ button span{
 
 .bio-text-section h3{
     font-weight: 600;
-    font-size: 1.1rem;
-    color: #3b82f6;
+    font-size: 150;
+    color: blue;
     padding-bottom: 0.5rem;
 }
 
@@ -145,7 +145,7 @@ button span{
 
 .bio-text-section p{
     color: white;
-    font-size: 1rem;
+    font-size: 150;
 }
 
 .bio-link-section{
@@ -260,8 +260,8 @@ button span{
 }
 
 .bottom-section{
-    padding: 2rem;
-    background-color: white;
+    padding: 1rem;
+    background-color: rgba(235, 235, 255, 1);
     width: 100%;
     height: auto;
     display: flex;
@@ -271,7 +271,7 @@ button span{
 }
 
 .project-section{
-    width: 45%;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -437,7 +437,7 @@ button span{
 }
 
 .drive-section{
-    width: 45%;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -657,8 +657,8 @@ button span{
     font-size: 0.75rem;
 }
 
-/* Tablet View(480px-1140px) */
 
+/* Tablet View */
 @media (max-width: 1140px) {
     .top-section {
         padding: 2rem 2rem;
@@ -706,7 +706,6 @@ button span{
 }
 
 /* Mobile view(0-480px) */
-
 @media (max-width: 480px) {
     .top-section {
         padding: 1.5rem 1rem;
