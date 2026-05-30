@@ -261,7 +261,7 @@ button span{
 
 .bottom-section{
     padding: 1rem;
-    background-color: rgba(235, 235, 255, 1);
+    background-color: white;
     width: 100%;
     height: auto;
     display: flex;
