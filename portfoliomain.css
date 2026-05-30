@@ -271,7 +271,7 @@ button span{
 }
 
 .project-section{
-    width: 50%;
+    width: 45%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -437,7 +437,7 @@ button span{
 }
 
 .drive-section{
-    width: 50%;
+    width: 45%;
     height: auto;
     display: flex;
     flex-direction: column;
