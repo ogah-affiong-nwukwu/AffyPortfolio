@@ -268,6 +268,7 @@ button span{
     flex-direction: row;
     justify-content: start;
     align-items: start;
+    gap: 2.5rem;
 }
 
 .project-section{
@@ -306,6 +307,7 @@ button span{
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
+    gap: 1.5rem;
 }
 
 .dashboard-project{
@@ -325,7 +327,6 @@ button span{
     flex-direction: column;
     justify-content: end;
     align-items: start;
-    margin-right: 2rem;
 }
 
 .project-image{
@@ -334,9 +335,11 @@ button span{
 }
 
 .project-image img{
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     border-radius: 0.5rem;
+    object-fit: cover;
+    max-height: 200px;
 }
 
 .project-description{
@@ -461,11 +464,10 @@ button span{
     display: flex;
     flex-direction: row;
     justify-content: start;
-    align-items: start;
+    align-items: stretch;
     gap: 0.5rem;
     border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
-    margin-top: 3rem;
 }
 
 .work-drive-text-icon{
@@ -490,6 +492,7 @@ button span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .work-drive-icon span{
@@ -511,10 +514,11 @@ button span{
 }
 
 .divider{
-    width: 0.0625rem;
-    height: 8rem;
+    width: 2px;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.4);
     align-self: center;
+    margin: 0.5rem 0;
 }
 
 .technologies{
@@ -614,6 +618,7 @@ button span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .me-drive-icon span{
